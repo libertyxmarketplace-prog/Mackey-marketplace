@@ -10,8 +10,6 @@ Requires Python 3.10 or newer.
 python server.py
 ```
 
-Open http://localhost:8000
-
 ## Project files
 
 - `server.py` — backend, authentication and API
@@ -27,7 +25,3 @@ Open http://localhost:8000
 ```bash
 python -m unittest discover -s tests -v
 ```
-
-## Before publishing
-
-Configure hosting, HTTPS and security protections. Discord sign-in and paid checkout require additional integration. Do not upload the `data/` folder to a public repository.
