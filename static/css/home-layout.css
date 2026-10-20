@@ -1,0 +1,11 @@
+/* Homepage layout, matching the supplied LX reference without the promotional car card. */
+#page-home .hero-grid{grid-template-columns:minmax(300px,550px) 1fr;min-height:475px;padding-top:48px;align-items:center}
+#page-home .hero-copy{max-width:480px}
+#page-home .hero-bg{height:720px;filter:none!important}
+#page-home .departments{position:relative;z-index:2}
+#page-home .logo-large{margin-bottom:39px}
+#page-home .eyebrow{display:none}
+#page-home .hero-copy h1{font-size:clamp(31px,3vw,41px)}
+#page-home .hero-desc{max-width:430px}
+#page-home .featured-card{display:none!important}
+@media(max-width:700px){#page-home .hero-grid{display:block;min-height:450px;padding-top:60px}#page-home .hero-bg{height:720px}#page-home .logo-large{margin-bottom:32px}}
